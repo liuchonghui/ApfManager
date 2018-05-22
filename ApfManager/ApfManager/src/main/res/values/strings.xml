@@ -1,0 +1,30 @@
+<resources>
+    <!-- plugin -->
+    <string name="plugin_warning_id_lost">安装前检查：插件标识丢失</string>
+    <string name="plugin_warning_path_lost">安装前检查：缓存路径丢失</string>
+    <string name="plugin_warning_cache_not_fount">安装前检查：缓存文件不存在</string>
+    <string name="plugin_warning_id_already_installed">安装前检查：相同文件已安装</string>
+    <string name="plugin_warning_success">成功</string>
+    <string name="plugin_warning_src_file_not_found">失败: 安装文件未找到</string>
+    <string name="plugin_warning_copy_file_fail">失败: 复制安装文件到安装目录失败</string>
+    <string name="plugin_warning_signatures_invalidate">失败: 安装文件验证失败</string>
+    <string name="plugin_warning_verify_signatures_fail">失败: 插件和宿主签名串不匹配</string>
+    <string name="plugin_warning_parse_manifest_fail">失败: 插件Manifest文件解析出错</string>
+    <string name="plugin_warning_same_ver_has_loaded">失败: 同版本插件已加载,无需安装</string>
+    <string name="plugin_warning_high_ver_has_loaded">失败: 高版本插件已加载,无需安装</string>
+    <string name="plugin_warning_min_api_not_supported">失败: 当前系统版本过低,不支持此插件</string>
+    <string name="plugin_warning_plugin_not_exist">失败: 插件不存在</string>
+    <string name="plugin_warning_remove_fail">失败: 删除插件失败</string>
+    <string name="plugin_warning_host_version_not_support_current_plugin">失败: 插件要求的宿主版本和当前宿主版本不匹配</string>
+    <string name="plugin_warning_others">失败: 其他原因</string>
+
+    <string name="plugin_error_copy_file_fail">插件安装失败: 复制安装文件到安装目录失败</string>
+    <string name="plugin_error_signatures_invalidate">插件安装失败: 安装文件验证失败</string>
+    <string name="plugin_error_verify_signatures_fail">插件安装失败: 插件和宿主签名串不匹配</string>
+    <string name="plugin_error_parse_manifest_fail">插件安装失败: 插件Manifest文件解析出错</string>
+    <string name="plugin_error_min_api_not_supported">插件安装失败: 当前系统版本过低,不支持此插件</string>
+    <string name="plugin_error_plugin_not_exist">插件安装失败: 插件不存在</string>
+    <string name="plugin_error_remove_fail">插件安装失败: 删除插件失败</string>
+    <string name="plugin_error_host_version_not_support_current_plugin">插件安装失败: 插件要求的宿主版本和当前宿主版本不匹配</string>
+    <!-- plugin -->
+</resources>

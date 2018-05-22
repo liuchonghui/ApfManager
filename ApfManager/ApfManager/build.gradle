@@ -1,0 +1,55 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.1"
+
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 27
+        versionCode 1
+        versionName "0.0.1.0-snapshot"
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+        textReport false
+        htmlReport false
+        xmlReport false
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    // rx // rx要有
+    compile "io.reactivex:rxkotlin:$rxkotlinVersion"
+    compile "io.reactivex:rxandroid:$rxandroidVersion"
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+    // okhttp // 网络请求要有
+    compile 'com.squareup.okhttp3:okhttp:3.3.1'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.3.1'
+    compile 'com.squareup.okhttp3:okhttp-urlconnection:3.3.1'
+    // gson // 用gson辅助传intent信息
+    compile "com.google.code.gson:gson:2.7"
+    // tools // 精简版Utils
+    compile 'tools.android:interface:1.1.1'
+    compile 'tools.android:utils:1.1.4'
+    compile 'tools.android:async2sync:1.0.0'
+    // apf // APF框架，没有可不行
+    compile 'tools.android:FairyPlugin:0.0.59.10-quickfix@aar'
+    // downloader // 没有downloader就无法下载到本地
+    compile 'tools.android:SimpleDownloader:0.0.1.0-snapshot'
+}
+
+apply from: "./jcenter.gradle"
+repositories {
+    mavenCentral()
+}
