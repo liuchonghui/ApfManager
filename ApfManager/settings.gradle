@@ -1,1 +1,3 @@
 include ':ApfManager'
+include ':samples:app'
+include ':samples:app2'
