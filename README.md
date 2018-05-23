@@ -1,8 +1,7 @@
 # ApfManager
 ```
 compile 'tools.android:ApfManager:0.0.1.1-snapshot@aar'
-
-dependences:
+// dependencies of tools.android:ApfManager-snapshot
 compile "io.reactivex:rxkotlin:0.60.0"
 compile "io.reactivex:rxandroid:1.2.1"
 compile "org.jetbrains.kotlin:kotlin-stdlib:1.2.21"
