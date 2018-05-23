@@ -1,6 +1,6 @@
 # ApfManager
 ```
-compile 'tools.android:ApfManager:0.0.1.0-snapshot@aar'
+compile 'tools.android:ApfManager:0.0.1.1-snapshot@aar'
 
 dependences:
 compile "io.reactivex:rxkotlin:0.60.0"
