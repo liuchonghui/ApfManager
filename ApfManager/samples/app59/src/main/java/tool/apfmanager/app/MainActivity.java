@@ -70,7 +70,7 @@ public class MainActivity extends Activity {
                             @Override
                             public void onClick(View v) {
                                 String tag = (String) v.getTag();
-                                Toast.makeText(v.getContext(), tag, Toast.LENGTH_LONG).show();
+                                TestSuit.Companion.get().testAndToast(v.getContext(), tag);
                             }
                         });
 

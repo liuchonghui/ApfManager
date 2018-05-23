@@ -48,7 +48,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <provider
+            android:name="tool.apfmanager.app.MainProvider"
+            android:authorities="tool.apfmanager.app.auth.HOST_PROVIDER"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="tool.apfmanager.app.action.HOST_PROVIDER" />
+            </intent-filter>
+        </provider>
     </application>
 
 </manifest>
