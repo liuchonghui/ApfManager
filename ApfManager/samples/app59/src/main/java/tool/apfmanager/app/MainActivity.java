@@ -13,11 +13,12 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.kuaiest.video.cpplugin.PluginUtil;
 import com.limpoxe.fairy.content.PluginDescriptor;
 import com.limpoxe.fairy.manager.PluginManagerHelper;
 
 import java.io.File;
+
+import tools.android.apfmanager.PluginUtil;
 
 public class MainActivity extends Activity {
 

@@ -3,7 +3,7 @@ package tool.apfmanager.app2;
 import android.app.Application;
 import android.content.Context;
 
-import com.kuaiest.video.cpplugin.PluginUtil;
+import tools.android.apfmanager.PluginUtil;
 
 public class MainApplication extends Application {
 
