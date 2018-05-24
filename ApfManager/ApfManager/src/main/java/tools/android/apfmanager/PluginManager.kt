@@ -9,7 +9,6 @@ import android.os.Parcelable
 import android.text.TextUtils
 import android.util.Log
 import android.widget.Toast
-import com.kuaiest.video.cpplugin.PluginUtil
 import com.limpoxe.fairy.core.FairyGlobal
 import com.limpoxe.fairy.core.PluginIntentResolver
 import com.limpoxe.fairy.manager.PluginManagerHelper

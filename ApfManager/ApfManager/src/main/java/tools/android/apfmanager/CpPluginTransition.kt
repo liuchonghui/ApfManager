@@ -7,7 +7,6 @@ import android.text.TextUtils
 import android.util.Log
 import android.widget.Toast
 import com.google.gson.Gson
-import com.kuaiest.video.cpplugin.PluginUtil
 import com.kuaiest.video.data.models.jsondata.plugins.Plugin
 import com.kuaiest.video.data.models.jsondata.plugins.PluginInfo
 import com.kuaiest.video.data.models.jsondata.plugins.PluginResult
