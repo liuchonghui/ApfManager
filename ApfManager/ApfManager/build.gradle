@@ -44,7 +44,7 @@ dependencies {
     compile 'tools.android:utils:1.1.4'
     compile 'tools.android:async2sync:1.0.0'
     // apf // APF框架，没有可不行
-    compile 'tools.android:FairyPlugin:0.0.59.10-quickfix@aar'
+    compile 'tools.android:FairyPlugin:0.0.59.11-quickfix@aar'
     // downloader // 没有downloader就无法下载到本地
     compile 'tools.android:SimpleDownloader:0.0.1.0-snapshot'
 }

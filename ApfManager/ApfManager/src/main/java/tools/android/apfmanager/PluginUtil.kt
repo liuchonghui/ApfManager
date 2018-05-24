@@ -1,4 +1,4 @@
-package com.kuaiest.video.cpplugin
+package tools.android.apfmanager
 
 import android.app.Application
 import android.content.Context
